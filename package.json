@@ -1,0 +1,10 @@
+{
+  "name": "electron-vscode",
+  "version": "0.0.1",
+  "description": "An learn electron repository",
+  "main": "dist/main/index.js",
+  "repository": "https://github.com/caoxiemeihao/electron-vscode",
+  "author": "草鞋没号 <308487730@qq.com>",
+  "license": "MIT",
+  "scripts": {}
+}
