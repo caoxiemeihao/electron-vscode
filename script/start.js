@@ -66,6 +66,8 @@ function buildPreload() {
   rollup
     .watch(configFactory(process.env.NODE_ENV, 'preload'))
     .on('change', (id, { event }) => {
-      console.log(TAG, '[preload]', id);
+      if (event === 'update') {
+        console.log(TAG, '[preload]', id);
+      }
     });
 }
