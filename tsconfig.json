@@ -9,6 +9,7 @@
     "jsx": "preserve",
     "skipLibCheck": true,
     "allowSyntheticDefaultImports": true,
+    "noImplicitAny": false,
     "importHelpers": true,
     "baseUrl": ".",
     "paths": {
